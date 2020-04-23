@@ -407,8 +407,12 @@ app.get("/dreams", (request, response) => {
 });
 
 // listen for requests :)
-const listener = app.listen(process.env.PORT, () => {
-  console.log("Your app is listening on port " + listener.address().port);
+// const listener = app.listen(process.env.PORT, () => {
+  // console.log("Your app is listening on port " + listener.address().port);
+// });
+
+const listener = app.listen(8080, function() {
+    console.log('Ready on port %d', listener.address().port);
 });
 
 /*
