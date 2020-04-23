@@ -13,7 +13,9 @@
     "express": "^4.17.1",
     "aws-sdk": "*",
     "body-parser": "*",
-    "multer":"*"
+    "multer":"*",
+    "moment":"*",
+    "moment-duration-format":"*"
   },
   "engines": {
     "node": "12.x"
