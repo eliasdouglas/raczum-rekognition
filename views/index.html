@@ -1,14 +1,12 @@
-<!-- This is a static file -->
-<!-- served from your routes in server.js -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Raczum - Rekognition</title>
+    <title>Raczum - Cognize</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="A cool thing made with Glitch">
-    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta name="description" content="Raczum Cognize">
 
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css">
@@ -18,7 +16,7 @@
   </head>
   <body>
     <header>
-      <h1>Raczum - Rekognition</h1>
+      <h1>Raczum - Cognize</h1>
     </header>
 
     <main>
@@ -27,43 +25,6 @@
 	      <button type="submit">Enviar imagem para analise de labels</button>
       </form>
       
-      
-      <!--<form action="/detectarModeracao" method="post" enctype="multipart/form-data">
-	      <input type="file" id="myfile_moderar" name="myfile_moderar"/>
-	      <button type="submit">Enviar arquivo para moderação</button>
-      </form>
-      
-      <form action="/analiseFacial" method="post" enctype="multipart/form-data">
-	      <input type="file" id="myfile_facial" name="myfile_facial"/>
-	      <button type="submit">Enviar arquivo para analise facial</button>
-      </form>
-      
-      <form action="/reconhecerCelebridade" method="post" enctype="multipart/form-data">
-	      <input type="file" id="myfile_celebridade" name="myfile_celebridade"/>
-	      <button type="submit">Reconhecimento celebridade</button>
-      </form>
-      
-      <br />
-      <form action="/indexar" method="post" enctype="multipart/form-data">
-	      <input type="file" id="myfile_index" name="myfile_index"/>
-	      <button type="submit">Indexar imagem</button>
-      </form>
-      
-      <br />
-      <form action="/procurar" method="post" enctype="multipart/form-data">
-	      <input type="file" id="myfile_procurar" name="myfile_procurar"/>
-	      <button type="submit">Procurar imagem</button>
-      </form>
-      
-      <hr />
-      <br />
-      <form action="/detectarLabelsS3" method="post">
-	      <input type="text" id="foto" name="foto"/>
-	      <button type="submit">Analise Imagem no S3</button>
-      </form>
--->
-      
-      <!-- Videos -->
       <hr />
       <br />
       <form action="/videoLabel" method="post">
@@ -79,11 +40,7 @@
       
     </main>
 
-    <footer>Made with <a href="https://glitch.com">Glitch</a>!</footer>
+    <footer>Written by <a href="https://www.linkedin.com/in/douglasdaniel/">Douglas</a>!</footer>
 
-    <!-- include the Glitch button to show what the webpage is about and
-          to make it easier for folks to view source and remix -->
-    <div class="glitchButton" style="position:fixed;top:2em;right:20px;"></div>
-    <script src="https://button.glitch.me/button.js"></script>
   </body>
 </html>
