@@ -51,7 +51,7 @@ app.post("/detectarLabels", upload.single('myfile'), function(request, response)
       Bytes: arquivo
     },
     MaxLabels: 50,
-    MinConfidence: 70
+    MinConfidence: 50
   };
   
   rekognition.detectLabels(params, function (err, data) {
